@@ -1,0 +1,13 @@
+list1 = ["Black", "Red", "Maroon", "Yellow"]
+list2 = ["#000000", "#FF0000", "#800000", "#FFFF00"]
+
+result = []
+
+for i in range(len(list1)):
+    dic = {
+        "color_name": list1[i],
+        "color_code": list2[i]
+    }
+    result.append(dic)
+
+print(result)
